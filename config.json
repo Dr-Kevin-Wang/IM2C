@@ -1,0 +1,57 @@
+{
+	"lat": {
+		"option": 180,
+		"weight": 1,
+		"diffoption": "direct"
+	},
+	"long": {
+		"option": "Remove",
+		"weight": 1,
+		"diffoption": "direct"
+	},
+	"alt": {
+		"option": "zscore",
+		"weight": 0.5,
+		"diffoption": "direct"
+	},
+	"avgTemp": {
+		"option": "zscore",
+		"weight": 0.5,
+		"diffoption": "direct"
+	},
+	"avgPressure": {
+		"option": "zscore",
+		"weight": 0.1,
+		"diffoption": "direct"
+	},
+	"avgDewPt": {
+		"option": "Remove",
+		"weight": 1,
+		"diffoption": "direct"
+	},
+	"precipitation": {
+		"option": "zscore",
+		"weight": 0.1,
+		"diffoption": "direct"
+	},
+	"maxHumidity": {
+		"option": 100,
+		"weight": 0.3,
+		"diffoption": "direct"
+	},
+	"minHumidity": {
+		"option": 100,
+		"weight": 0.3,
+		"diffoption": "direct"
+	},
+	"tzName": {
+		"option": "Remove",
+		"weight": 1,
+		"diffoption": "direct"
+	},
+	"utc": {
+		"option": "None",
+		"weight": 2,
+		"diffoption": "utcdiff"
+	}
+}
